@@ -90,7 +90,7 @@ Format:
                 )
                 feedback = response.choices[0].message.content
 
-                st.markdown("### 📊 Resume Feedback")
+                st.markdown("### Resume Feedback")
                 st.write(feedback)
 
                 st.download_button("📥 Download Feedback (TXT)", feedback, file_name="resume_feedback.txt", mime="text/plain")
@@ -105,7 +105,7 @@ Format:
                     temperature=0.3
                 )
                 score_output = score_response.choices[0].message.content
-                st.markdown("### 🧮 Resume Score")
+                st.markdown("### Resume Score")
                 st.markdown(score_output)
 
             except Exception as e:
@@ -113,9 +113,9 @@ Format:
 
     # ====== Tailored Resume Generator ======
     st.markdown("---")
-    st.subheader("🎯 Generate Tailored Resume")
+    st.subheader("Generate Tailored Resume")
 
-    if st.button("🧠 Create Tailored Resume"):
+    if st.button("Create Tailored Resume"):
         with st.spinner("Crafting tailored resume using Mistral..."):
             try:
                 tailored_prompt = f"""
