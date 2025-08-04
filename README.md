@@ -2,7 +2,12 @@ Resume Optimizer AI
 
 A smart, AI-powered resume optimizer built with **Streamlit** and **Mistral LLM API**. Upload your resume, paste a job description, and get instant feedback, tailored resumes, interview prep, and more.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://https://monitresume-optimizer.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://monitresume-optimizer.streamlit.app)
+
+Live Demo
+
+[Click here to try the Resume Optimizer](https://monitresume-optimizer.streamlit.app)
+
 
 Features
 
